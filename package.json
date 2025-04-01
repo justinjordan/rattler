@@ -1,0 +1,28 @@
+{
+  "name": "rattler",
+  "version": "0.0.0",
+  "description": "Rattler Game Engine",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "author": "Justin Jordan",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build",
+    "watch": "parcel watch"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "2.14.2",
+    "@parcel/transformer-typescript-types": "2.14.2",
+    "@types/pubsub-js": "^1.8.6",
+    "parcel": "^2.14.2",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "loglevel": "^1.9.2",
+    "pubsub-js": "^1.9.5"
+  }
+}
