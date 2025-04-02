@@ -1,6 +1,6 @@
 {
   "name": "rattler",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Rattler Game Engine",
   "source": "src/index.ts",
   "main": "dist/index.js",
